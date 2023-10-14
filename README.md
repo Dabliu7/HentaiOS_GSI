@@ -6,7 +6,7 @@ To get started with building HenteiOS GSI, you'll need to get familiar with [Git
     ```
     mkdir HentaiOS; cd HentaiOS
     ```
-- Initialize local repository
+- Initialize local repository:
     ```
     repo init -u https://github.com/hentaiOS/platform_manifest -b Ursamoon
     ```
@@ -14,9 +14,9 @@ To get started with building HenteiOS GSI, you'll need to get familiar with [Git
     ```
     git clone https://github.com/Dabliu7/HentaiOS_GSI -b android-14.0
     ```
-- Finally, start the build script:
+- Sync:
     ```
-    bash treble_build_aosp/build.sh
+    repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
     ```
 
 ## Credits
