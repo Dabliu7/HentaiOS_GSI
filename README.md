@@ -21,7 +21,7 @@ To get started with building HenteiOS GSI, you'll need to get familiar with [Git
 
 ## Credits
 These people have helped this project in some way or another, so they should be the ones who receive all the credit:
-- [Ponces](https://github.com/ponces)
+- [ponces](https://github.com/ponces)
 - [phhusson](https://github.com/phhusson)
 - [AndyYan](https://github.com/AndyCGYan)
 - [eremitein](https://github.com/eremitein)
