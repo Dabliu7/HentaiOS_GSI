@@ -6,6 +6,10 @@ To get started with building HenteiOS GSI, you'll need to get familiar with [Git
     ```
     mkdir HentaiOS; cd HentaiOS
     ```
+- Initialize local repository
+    ```
+    repo init -u https://github.com/hentaiOS/platform_manifest -b Ursamoon
+    ```
 - Clone this repo:
     ```
     git clone https://github.com/Dabliu7/HentaiOS_GSI -b android-14.0
