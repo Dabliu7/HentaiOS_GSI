@@ -14,6 +14,11 @@ To get started with building HenteiOS GSI, you'll need to get familiar with [Git
     ```
     git clone https://github.com/Dabliu7/HentaiOS_GSI -b android-14.0
     ```
+- Preparing local manifest
+    ```
+    mkdir -p .repo/local_manifests
+    cp $BL/manifest.xml .repo/local_manifests/hentaios.xml
+    ```
 - Sync:
     ```
     repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
