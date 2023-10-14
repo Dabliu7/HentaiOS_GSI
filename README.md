@@ -17,7 +17,7 @@ To get started with building HenteiOS GSI, you'll need to get familiar with [Git
 - Preparing local manifest
     ```
     mkdir -p .repo/local_manifests
-    cp $BL/manifest.xml .repo/local_manifests/hentaios.xml
+    cp /manifest.xml .repo/local_manifests/hentaios.xml
     ```
 - Sync:
     ```
